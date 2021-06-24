@@ -1,0 +1,67 @@
+body{
+    background: #d4f9fa;
+    color: black;
+}
+
+.box{
+    background-color: #52b1ff;
+    width: 23%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 5px 10px 15px #a3b5c4;
+    border-radius: 10px;
+}
+
+input{
+    background-color: #52b1ff;
+    width: 40%;
+    padding: 5px 20px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    text-align: center;
+
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #d4f9fa;
+    font-family: 'Jost', sans-serif;
+  }
+  
+
+h2{
+    text-transform: capitalize;
+    margin-top: 90px;
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+}
+
+.temp{
+    margin-top: 50px;
+    font-family: 'Jost', sans-serif;
+}
+
+.tempmin_max{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: medium;
+}
+
+i{
+    left: -20px;
+    color: aliceblue;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+  @keyframes example {
+    0%   {left:-20px;}
+    100%  {left:0px;}
+  }
